@@ -1,0 +1,8 @@
+Python：
+1. A.sort(key = lambda x : x%2)
+2. Return [ ]+[ ]
+3. Quicksort: while I<j: if (A[I]%2) > (A[j]%2): 互换
+JAVA:
+1. Arrays.sort(B, (a, b) -> Integer.compare(a%2, b%2))
+2. If (A[I]%2==0) {Ans[t++] = A[i]}   If (A[I]%2>0) {Ans[t++] = A[I]}. 两个for循环填充
+3. Quicksort:
